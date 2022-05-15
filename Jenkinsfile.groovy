@@ -4,3 +4,12 @@ job('example1'){
    }
 
 }
+
+
+job('example2'){
+   steps{
+       shell ('echo hello')
+   }
+
+}
+
